@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduWeb</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+  </head>
+  <body>
+    <!-- Overlay -->
+     <div id="overlay"></div>
+
+    <!--- header --->
+    <header class="header">
+      <img src="assets/images/logo-light.svg" alt="logo" class="logo" />
+
+      <ul>
+        <li class="navbar-item"><a href="#">Home</a></li>
+
+        <li class="navbar-item"><a href="#about">About</a></li>
+
+        <li class="navbar-item"><a href="#course">Course</a></li>
+
+        <li class="navbar-item"><a href="#review">Review</a></li>
+
+        <li class="navbar-item"><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button class="blue-button">Try it free !</button>
+    </header>
+
+        <!-- modal pop up -->
+        <div class="modal-container" id="modal">
+          <div class="modal-content">
+            <button class="modal-close" id="modal-close">x</button>
+            <h2>Dapatkan Diskon Hingga 30% Dengan Berlangganan Newsletter Kami!</h2>
+            <form action="" class="modal-form">
+              <input type="email" name="email" id="email" placeholder="E-mail">
+              <button class="blue-button" id="langganan">Berlangganan</button>
+            </form>
+          </div>
+         </div>
+    
+
+    <main>
+      <article>
+        <!-- Home -->
+        <section class="hero" id="home">
+          <div class="hero-content">
+            <h1 class="hero-title">
+              Pelatihan Microsoft Office Untuk Semua Orang
+            </h1>
+            <p class="hero-text">
+              Kami Menyediakan Layanan Terbaik Kursus Komputer untuk Menguasai
+              Skill Microsoft Office (Word, Excel, Power Point)
+            </p>
+            <a href="#course"><button class="find-course-btn blue-button">Find Course</button></a>
+          </div>
+
+          <img src="assets/images/hero-image.jpg" alt="" class="hero-image" />
+        </section>
+
+        <!-- About -->
+        <section class="about" id="about">
+          <img src="assets/images/about-img.jpg" alt="" class="about-img" />
+
+          <div class="about-content">
+            <p class="about-subtitle">about us</p>
+
+            <h2 class="about-title">
+              Program in House Traning / Privat Offline
+            </h2>
+
+            <p class="about-text">
+              Bekali diri Anda dengan kompetensi di bidang komputer yang sangat
+              dibutuhkan di era digital seperti sekrang ini. Tutor terbaik kami
+              siap Datang kerumah / Perusahaan Anda
+            </p>
+
+            <ul class="about-list">
+              <li>Expert Trainer</li>
+              <li>Lifetime Access</li>
+              <li>Online Remote Training</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- course -->
+        <section class="course" id="course">
+          <h2 class="course-title">Pick A Course To Get Started</h2>
+
+          <div class="course-container">
+            <div class="course-card">
+              <img src="assets/images/card-image1.jpg" alt="" />
+              <span class="badge">Beginner</span>
+              <div class="card-text">
+                <h3>Microsoft Office Word for Beginner</h3>
+                <p>
+                  Kursus word mulai dari penggunaan tables & chart, menggunakan
+                  Styles dan themes, dan berbagai materi lainnya sampai anda
+                  mahir Ms Word.
+                </p>
+              </div>
+
+              <button class="card-btn blue-button">JOIN</button>
+            </div>
+
+            <div class="course-card">
+              <img src="assets/images/card-image2.jpg" alt="" />
+              <span class="badge">Beginner</span>
+              <div class="card-text">
+                <h3>Microsoft Office Excel for Beginner</h3>
+                <p>
+                  Kursus microsoft excel mulai dari cara melakukan kalkulasi,
+                  modifikasi worksheet, dan berbagai materi lainnya sampai anda
+                  mahir Ms Word.
+                </p>
+              </div>
+
+              <button class="card-btn blue-button">JOIN</button>
+            </div>
+
+            <div class="course-card">
+              <img src="assets/images/card-image3.jpg" alt="" /><span
+                class="badge"
+                >Beginner</span
+              >
+              <div class="card-text">
+                <h3>Microsoft Office PowerPoint for Beginner</h3>
+                <p>
+                  Kursus PowePoint mulai dari penggunaan SmartArts, menambahkan
+                  elemen grafis, dan berbagai materi lainnya sampai anda mahir
+                  Ms Word.
+                </p>
+              </div>
+
+              <button class="card-btn blue-button">JOIN</button>
+
+              <div class="whatsapp-float">
+                <a href="https://wa.me/nomor_telepon_anda">
+                  <img src="wa.png" alt="WhatsApp" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- reviews -->
+        <section class="review" id="review">
+          <h2 class="review-title">Review Dari Pengguna</h2>
+
+          <div class="slide-container swiper">
+            <div class="card-content">
+              <div class="card-wrapper swiper-wrapper">
+                <div class="card swiper-slide">
+                  <div class="card-img">
+                    <img
+                      src="assets/images/slider-img-1.jpg"
+                      alt="img"
+                      class="profil-img"
+                    />
+                  </div>
+                  <div class="card-content">
+                    <h2>Anonymous</h2>
+                    <img
+                      src="assets/images/rating-star.png"
+                      alt="star"
+                      class="star-img"
+                    />
+                    <span
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.</span
+                    >
+                  </div>
+                </div>
+
+                <div class="card swiper-slide">
+                  <div class="card-img">
+                    <img
+                      src="assets/images/slider-img-2.jpg"
+                      alt="img"
+                      class="profil-img"
+                    />
+                  </div>
+                  <div class="card-content">
+                    <h2>Anonymous</h2>
+                    <img
+                      src="assets/images/rating-star.png"
+                      alt="star"
+                      class="star-img"
+                    />
+                    <span
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.</span
+                    >
+                  </div>
+                </div>
+
+                <div class="card swiper-slide">
+                  <div class="card-img">
+                    <img
+                      src="assets/images/slider-img-3.jpg"
+                      alt="img"
+                      class="profil-img"
+                    />
+                  </div>
+                  <div class="card-content">
+                    <h2>Anonymous</h2>
+                    <img
+                      src="assets/images/rating-star.png"
+                      alt="star"
+                      class="star-img"
+                    />
+                    <span
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.</span
+                    >
+                  </div>
+                </div>
+
+                <div class="card swiper-slide">
+                  <div class="card-img">
+                    <img
+                      src="assets/images/slider-img-4.jpg"
+                      alt="img"
+                      class="profil-img"
+                    />
+                  </div>
+                  <div class="card-content">
+                    <h2>Anonymous</h2>
+                    <img
+                      src="assets/images/rating-star.png"
+                      alt="star"
+                      class="star-img"
+                    />
+                    <span
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.</span
+                    >
+                  </div>
+                </div>
+
+                <div class="card swiper-slide">
+                  <div class="card-img">
+                    <img
+                      src="assets/images/slider-img-5.jpg"
+                      alt="img"
+                      class="profil-img"
+                    />
+                  </div>
+                  <div class="card-content">
+                    <h2>Anonymous</h2>
+                    <img
+                      src="assets/images/rating-star.png"
+                      alt="star"
+                      class="star-img"
+                    />
+                    <span
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+
+              
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <script src="swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

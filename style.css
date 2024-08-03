@@ -1,0 +1,303 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: poppins, serif;
+  scroll-behavior: smooth;
+  scroll-margin-top: 120px;
+}
+
+/* overlay */
+#overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+  cursor: pointer;
+}
+
+/* pop up */
+.modal-container {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #233c69;
+  color: white;
+  padding: 80px;
+  width: 600px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.modal-form {
+  margin-top: 30px;
+}
+
+.modal-form input {
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  padding: 15px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.modal-form button {
+  display: block;
+  margin-top: 5px;
+  border-radius: 20px;
+  height: 40px;
+  width: 100%;
+  font-size: 18px;
+}
+
+.modal-close {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 100%;
+  color: white;
+  background-color: #3882f6;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #1f2937;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header ul {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-item {
+  list-style-type: none;
+}
+
+.navbar-item a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+.blue-button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+}
+
+/* home */
+.hero {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 100px 0;
+  background-color: #1f2937;
+}
+
+.hero-content {
+  width: 600px;
+}
+
+.hero-title {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.hero-text {
+  margin-top: 20px;
+  color: #e5e7eb;
+}
+
+.hero-image {
+  height: 300px;
+  border-radius: 50px 0;
+}
+
+.find-course-btn {
+  margin-top: 10px;
+}
+
+/* about */
+
+.about {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.about-content {
+  width: 500px;
+}
+
+.about-title {
+  font-size: 38px;
+}
+
+.about-text,
+.about-subtitle {
+  color: #808080;
+}
+
+.about-list {
+  margin-top: 10px;
+  padding-left: 30px;
+  list-style-type: none;
+  font-size: 12px;
+}
+
+.about-list li {
+  padding-top: 10px;
+}
+
+.about-img {
+  height: 300px;
+  border-radius: 10px;
+}
+
+/* course */
+
+.course {
+  padding: 50px 0 100px 0;
+  background-color: #e5e7eb;
+}
+
+.course-title {
+  font-size: 38px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.course-container {
+  display: flex;
+  justify-content: center;
+  gap: 7%;
+  align-items: center;
+}
+
+.course-card {
+  width: 300px;
+  padding-bottom: 10px;
+  background-color: #f9faf8;
+  border-radius: 10px;
+}
+
+.course-card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-text {
+  padding: 10px;
+  text-align: center;
+}
+
+.card-text p {
+  margin-top: 20px;
+}
+
+.badge {
+  margin-left: 10px;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 12px;
+  background-color: #dcf4f0;
+  color: #1ab79d;
+}
+
+.card-btn {
+  display: block;
+  margin: auto;
+}
+
+.whatsapp-float {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+.whatsapp-float img {
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+/* review */
+.review {
+  padding: 100px 0;
+}
+
+.slide-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-title {
+  font-size: 38px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.profil-img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.star-img {
+  width: 80px;
+  display: block;
+  margin: auto;
+}
+
+.card {
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.swiper {
+  height: 350px;
+  width: 60%;
+}
