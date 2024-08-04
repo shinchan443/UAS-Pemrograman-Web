@@ -15,7 +15,7 @@
   </head>
   <body>
     <!-- Overlay -->
-     <div id="overlay"></div>
+    <div id="overlay"></div>
 
     <!--- header --->
     <header class="header">
@@ -36,18 +36,17 @@
       <button class="blue-button">Try it free !</button>
     </header>
 
-        <!-- modal pop up -->
-        <div class="modal-container" id="modal">
-          <div class="modal-content">
-            <button class="modal-close" id="modal-close">x</button>
-            <h2>Dapatkan Diskon Hingga 30% Dengan Berlangganan Newsletter Kami!</h2>
-            <form action="" class="modal-form">
-              <input type="email" name="email" id="email" placeholder="E-mail">
-              <button class="blue-button" id="langganan">Berlangganan</button>
-            </form>
-          </div>
-         </div>
-    
+    <!-- modal pop up -->
+    <div class="modal-container" id="modal">
+      <div class="modal-content">
+        <button class="modal-close" id="modal-close">x</button>
+        <h2>Dapatkan Diskon Hingga 30% Dengan Berlangganan Newsletter Kami!</h2>
+        <form action="" class="modal-form">
+          <input type="email" name="email" id="email" placeholder="E-mail" />
+          <button class="blue-button" id="langganan">Berlangganan</button>
+        </form>
+      </div>
+    </div>
 
     <main>
       <article>
@@ -61,7 +60,11 @@
               Kami Menyediakan Layanan Terbaik Kursus Komputer untuk Menguasai
               Skill Microsoft Office (Word, Excel, Power Point)
             </p>
-            <a href="#course"><button class="find-course-btn blue-button">Find Course</button></a>
+            <a href="#course"
+              ><button class="find-course-btn blue-button">
+                Find Course
+              </button></a
+            >
           </div>
 
           <img src="assets/images/hero-image.jpg" alt="" class="hero-image" />
@@ -150,6 +153,18 @@
               </div>
             </div>
           </div>
+
+          <h2 class="yt-title">Contoh Kursus Dari Kami</h2>
+          <iframe class="yt-video"
+            width="720"
+            height="315"
+            src="https://www.youtube.com/embed/Cw6a3b5QoAs?si=ckNBvWd7cN18ROEc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
         </section>
 
         <!-- reviews -->
@@ -277,11 +292,63 @@
 
               <div class="swiper-button-prev"></div>
               <div class="swiper-button-next"></div>
-
-              
             </div>
             <div class="swiper-pagination"></div>
           </div>
+        </section>
+
+        <!--CONTACT-->
+        <section class="contact" id="contact">
+          <footer class="footer">
+            <ul class="social-icon">
+              <li class="social-icon__item">
+                <a class="social-icon__link" href="#">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+              <li class="social-icon__item">
+                <a class="social-icon__link" href="#">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+              <li class="social-icon__item">
+                <a class="social-icon__link" href="#">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+              <li class="social-icon__item">
+                <a class="social-icon__link" href="#">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+            </ul>
+            <ul class="menu">
+              <li class="menu__item">
+                <a class="menu__link" href="#">Home</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">About</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Course</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Review</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Contact</a>
+              </li>
+            </ul>
+            <p>&copy;2024 Abdurrahman Rizki | Ichsan</p>
+          </footer>
+          <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+          ></script>
+          <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+          ></script>
         </section>
       </article>
     </main>
