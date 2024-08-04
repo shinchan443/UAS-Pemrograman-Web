@@ -1,12 +1,12 @@
-Kelompok Pemrograman Web
+Kelompok Pemrograman Web<br>
 
-  Anggota Kelompok
-  Nama : Ichsanul Fikri Al Farisi
-  Nim : 230401010333
-  Kelas : IT203
-  Mata Kuliah : Pemrograman Web
+  Anggota Kelompok<br>
+  Nama : Ichsanul Fikri Al Farisi<br>
+  Nim : 230401010333<br>
+  Kelas : IT203<br>
+  Mata Kuliah : Pemrograman Web<br>
   
-  Nama : Abdurrahman Rizki
-  Nim  : 230401010078
-  Kelas : IT203
-  Mata Kuliah : Pemrograman Web
+  Nama : Abdurrahman Rizki<br>
+  Nim  : 230401010078<br>
+  Kelas : IT203<br>
+  Mata Kuliah : Pemrograman Web<br>
