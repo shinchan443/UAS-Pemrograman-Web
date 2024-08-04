@@ -1,3 +1,16 @@
+/* 
+Anggota Kelompok  
+  Nama : Ichsanul Fikri Al Farisi 
+  Nim : 230401010333
+  Kelas : IT203
+  Mata Kuliah : Pemrograman Web
+
+  Nama : Abdurrahman Rizki  
+  Nim  : 230401010078  
+  Kelas : IT203
+  Mata Kuliah : Pemrograman Web
+   */
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -18,7 +31,6 @@
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 5;
-  cursor: pointer;
 }
 
 /* pop up */
@@ -381,5 +393,4 @@ audio {
   position: fixed;
   z-index: 9;
   bottom: 0;
-  
 }
